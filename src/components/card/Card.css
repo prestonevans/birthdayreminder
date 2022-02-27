@@ -1,0 +1,66 @@
+
+h1 {
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: .5em;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+article {
+    width: 90%;
+    max-width: 45rem;
+    color: black;
+    background-color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.208);
+    transition: height 3s ease-in;
+}
+.row {
+    display: flex;
+    margin-bottom: 1em;
+    gap: 1rem;
+}
+.row:nth-child(even) {
+    background: linear-gradient(270deg, rgb(237, 237, 237), white);
+    border-radius: .5rem;
+}
+.row:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+.row:last-of-type {
+    margin-bottom: 2rem;
+}
+.row img {
+    width: clamp(5rem, 10vw, 20rem);
+    height: clamp(5rem, 10vw, 20rem);
+    object-fit: cover;
+    border-radius: 50%;
+}
+.person-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.person-info span {
+    color: rgb(169, 169, 169);
+    font-style: italic;
+    font-size: 1.25rem;
+}
+button {
+    width: 100%;
+    border: none;
+    padding: .5em;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: #F288B2;
+    border-radius: .5em;
+    transition: .3s ease-in;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #c77093;
+}
