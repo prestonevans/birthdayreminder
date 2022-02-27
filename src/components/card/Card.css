@@ -34,8 +34,8 @@ article {
     margin-bottom: 2rem;
 }
 .row img {
-    width: clamp(5rem, 10vw, 20rem);
-    height: clamp(5rem, 10vw, 20rem);
+    width: clamp(5rem, 10vw, 9rem);
+    height: clamp(5rem, 10vw, 9rem);
     object-fit: cover;
     border-radius: 50%;
 }

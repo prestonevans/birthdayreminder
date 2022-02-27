@@ -2,7 +2,7 @@
   text-align: center;
 }
 #root {
-  background-color: #F288B2;
+  background: linear-gradient(45deg, rgb(242, 136, 178), rgba(128, 0, 128, 0.598));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
